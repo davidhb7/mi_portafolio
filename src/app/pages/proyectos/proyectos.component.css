@@ -1,0 +1,72 @@
+h1.proyectos{
+  font-weight: bold;
+  color: #cc1634;
+}
+
+p{
+  font-size: large;
+
+  color: white;
+}
+
+p.tec{
+  font-weight: bold;
+}
+
+body.proyectos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  width: 1500px;
+  /* opacity: 0.75; */
+  background-color: transparent;
+}
+
+li{
+  color: #b1122c;
+  font-size: 22px;
+}
+.contenedor{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background-color: rgb(22, 10, 46);
+  /* width: 1200px;
+  height: 550px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #b1122c;
+  text-align: center;
+}
+
+.card-description {
+  color: #555;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+img{
+  width: 580px;
+  height: 290px;
+  padding: 10px;
+}
+
+hr{
+  color: white;
+}

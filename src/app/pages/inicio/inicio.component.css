@@ -1,0 +1,61 @@
+h1.nombre{
+  font-weight: bold;
+  color: #cc1634;
+}
+p{
+  font-size: large;
+}
+
+body.inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 500px;
+  opacity: 0.75;
+  background-color: transparent;
+}
+
+
+.card {
+  margin-top: -150px;
+  background-color: #bbbaba;
+  /* width: 1200px;
+  height: 300px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.card-dos {
+  margin-top: -250px;
+  background-color: #bbbaba;
+  /* width: 1200px;
+  height: 500px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+
+.card-content {
+
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #b1122c;
+}
+
+.card-description {
+  color: #555;
+  font-weight: bold;
+  font-size: 26px;
+}
